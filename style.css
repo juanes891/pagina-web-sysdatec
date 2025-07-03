@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(images/fondo%20del%20encabezado.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 380px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fffdfc;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #ce9678;
+  display: block;
+  font-weight: 600;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.header-content {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.header-content h1 {
+  font-size: 75px;
+  line-height: 80px;
+  color: #f9fafc;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.header-content p {
+  font-size: 16px;
+  color: #c5c5c5;
+  padding: 0 250px;
+  margin-bottom: 25px;
+}
+
+.coffee {
+  padding: 100px 0;
+  background-color: #e1e2e6;
+  position: relative;
+}
+
+.coffee-content {
+  text-align: center;
+}
+
+.coffee-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+  padding: 0 250px;
+  margin-bottom: 35px;
+}
+
+.txt-p {
+  font-size: 16px;
+  color: #414247;
+  padding: 0 250px;
+  margin-bottom: 35px;
+}
+
+.coffee-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.coffee-1 img {
+  width: 200px;
+}
+
+.coffee-1 h3 {
+  color: #323337;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.empaques {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(images/blog3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px 0;
+}
+
+.empaques-content {
+  text-align: center;
+}
+
+.empaques-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #f9fafc;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.empaques-1 {
+  padding: 0 100px;
+  display: inline-block;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 20px 40px;
+}
+
+.empaques-1 img {
+  width: 40px;
+  margin-bottom: 15px;
+}
+
+.empaques-1 h3 {
+  color: #eaccb3;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.empaque-descripcion {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-top: 5px;
+}
+
+.general {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.fila-normal {
+  flex-direction: row;
+}
+
+.fila-reverse {
+  flex-direction: row-reverse;
+}
+
+.general-img {
+  flex: 1 1 50%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.general-text {
+  flex: 1 1 50%;
+  padding: 2rem;
+  background-color: #e4e4e4;
+}
+
+@media (max-width: 768px) {
+  .fila,
+  .fila-normal,
+  .fila-reverse {
+    flex-direction: column;
+  }
+
+  .general-img {
+    height: 300px;
+  }
+
+  .header-content p,
+  .coffee-content h2,
+  .txt-p {
+    padding: 0 20px;
+  }
+}
+
+.footer {
+  background-color: #000;
+  padding: 50px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.link h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.link ul {
+  margin-bottom: 10px;
+}
+
+.link ul a {
+  color: #fff;
+  text-decoration: none;
+}
