@@ -1,0 +1,20 @@
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.div-titulo{
+    text-align: center;
+    background-color:blue;
+}
+
+.imagen-pajaro{
+    text-align: center;
+    background-color:blueviolet;
+}
+
+div{
+    text-align: center;
+    background-color:black;
+}
+
